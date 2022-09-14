@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator Assignment - JS Part II</title>
+</head>
+<body>
+    <header> <h1> Calc-You-Later </h1></header>
+    <section class="calculator">
+        <table class="calculator-keys">
+            <tr>
+             <input class="result" type="text" value="" disabled> </input> 
+            </tr>
+            <tr>
+                <td colspan="3" class="special" id="grey">
+                    <button type="button" class="all-clear" value="all-clear"> AC </button>
+                </td>
+                <td class="amber">
+                    <button type="button" value="/">&divide;</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="numbers">
+                    <button type="button" value="7">7</button>
+                </td>
+                <td class="numbers">
+                    <button type="button" value="8">8</button>
+                </td>
+                <td class="numbers">
+                    <button type="button" value="9">9</button>
+                </td>
+                <td class="amber">
+                    <button type="button" value="*"> &times;</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="numbers">
+                    <button type="button" value="4">4</button>
+                </td>
+                <td class="numbers">
+                    <button type="button" value="5">5</button>
+                </td>
+                <td class="numbers">
+                    <button type="button" value="6">6</button>
+                </td>
+                <td class="amber"><button type="button" value="-"> - </button>
+                </td>
+            </tr>
+            <tr>
+               <td class="numbers">
+                <button type="button" value="3">3</button>
+                </td>
+                <td class="numbers">
+                    <button type="button" value="2">2</button>
+                </td>
+                <td class="numbers">
+                    <button type="button" value="1">1</button>
+                </td>
+                <td class="amber">
+                    <button type="button" value="+"> + </button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="special" id="numbers">
+                    <button type="button" value="0">0</button></td>
+                <td class="numbers">
+                    <button type="button" value="." class="decimal">.</button>
+                </td>
+                <td class="amber">
+                    <button type="button" value="="> = </button>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <script src="calculator.js"></script>
+</body>
+</html>

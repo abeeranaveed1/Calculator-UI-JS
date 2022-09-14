@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Regular';
+    src: url(fonts/MyriadPro-Regular.otf);
+  }
+
+body{
+    background: rgb(66,74,154);
+background: radial-gradient(circle, rgba(66,74,154,1) 0%, rgba(39,45,41,1) 100%);
+}
+
+header{
+   padding: 25px;
+   text-align: center;
+}
+
+h1{
+    font-family:'Regular', sans-serif;
+    color: white;
+}
+
+.result{
+    color: white;
+    padding-top: 50px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: black;
+    margin-left: 550px;
+    width: 270px;
+    font-size: 50px;
+    text-align: right;
+    padding-left: 5px;
+    padding-right: 14px;
+    font-family: 'Regular', sans-serif;
+}
+table{
+   position: absolute;
+   margin-left: 550px;
+   background-color: black;
+   padding: 5px 10px 10px 5px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   font-family: 'Regular', sans-serif;
+   font-weight: bold;
+}
+
+.special{
+    border-radius: 20px;
+}
+
+button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 10px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border-radius: 20px;
+}
+
+td{
+    border: 5px solid;
+    border-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    width: 15px;
+    color: white;
+    text-align: center;
+}
+
+.numbers{
+    background-color: rgb(80,80,80);
+    width:38px;
+    margin-top:5px;
+    font-size: 15px;
+}
+
+#numbers{
+    text-align: left;
+    background-color: rgb(80,80,80);
+    border: none;
+	padding: 10px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.amber{
+    background-color:rgb(255,165,0);
+
+}
+
+#grey{
+    background-color: rgb(192,192,192);
+    color:black;
+    border: none;
+	padding: 10px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+::-webkit-input-placeholder {
+    color: white;}
+
+
+td:hover{
+    background-color: rgb(132,132,130);
+    transition: 0.5s;
+}
+
+#grey:hover{
+    background-color: rgb(220,220,220);
+    transition: 0.5s;
+}
+#numbers:hover{
+    background-color: rgb(132,132,130);
+    transition: 0.5s;
+}
+
+.amber:hover{
+    background-color: rgb(255, 191, 0);
+}
+
+.calculator-keys{
+    color:white;
+}
